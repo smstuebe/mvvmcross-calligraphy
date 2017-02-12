@@ -12,10 +12,9 @@ open Fake.Git;
 
 
 let (+/) path1 path2 = Path.Combine(path1, path2)
-let RepositoryRootDir = "../../"
+let RepositoryRootDir = "../"
 let NuGetTargetDir = @"./out/nuget/"
 let BuildTargetDir = @"./out/lib/"
-let BootstrapFile = "FingerprintPluginBootstrap.cs.pp"
 let NugetPath = "../.nuget/NuGet.exe"
 let NuspecFiles = ["MvvmCross.Calligraphy.nuspec"] 
 
