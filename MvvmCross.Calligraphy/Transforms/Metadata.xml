@@ -1,0 +1,6 @@
+<metadata>
+  <attr path="/api/package[@name='uk.co.chrisjenx.calligraphy']" name="managedName">Calligraphy</attr>
+  <!--<attr path="/api/package[@name='uk.co.chrisjenx.calligraphy']/class[@name='CalligraphyLayoutInflater']" name="visibility">public</attr>-->
+  <attr path="/api/package[@name='uk.co.chrisjenx.calligraphy']/class[@name='CalligraphyFactory']" name="visibility">public</attr>
+  <!--<attr path="/api/package[@name='uk.co.chrisjenx.calligraphy']/interface[@name='CalligraphyActivityFactory']" name="visibility">public</attr>-->
+</metadata>

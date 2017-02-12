@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="Navigation">Click to Navigate</string>
+    <string name="ApplicationName">Calligraphy.Droid</string>
+
+    <string name="default_theme">\nThis is text set by the default theme fontPath.\n</string>
+    <string name="defined_fontpath_view">\nThis has a font path set to Roboto Bold, on the View.\n</string>
+    <string name="defined_incorrect">\nThis has a fontPath set to a font file that does not exist, it goes back to the default.\n</string>
+    <string name="defined_in_style">\nThis has the font path defined in the style as Roboto Condensed.\n</string>
+    <string name="defined_in_appears_style">\nThis has the font path defined in the Styles TextAppearance as Roboto Condensed.\n</string>
+</resources>

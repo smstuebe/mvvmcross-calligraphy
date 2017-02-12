@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="TextViewStyle">
+    <item name="fontPath">fonts/RobotoCondensed-Regular.ttf</item>
+  </style>
+
+  <style name="TextViewAppearanceStyle">
+    <item name="android:textAppearance">@style/TextAppearance.FontPath</item>
+  </style>
+
+  <style name="TextAppearance.FontPath" parent="android:TextAppearance">
+    <!-- Custom Attr-->
+    <item name="fontPath">fonts/RobotoCondensed-Regular.ttf</item>
+    <item name="android:textColor">#444</item>
+  </style>
+</resources>

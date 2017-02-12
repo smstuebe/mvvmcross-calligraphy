@@ -1,0 +1,29 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MvvmCross.Calligraphy</id>
+    <version>1.0.0</version>
+    <title>Calligraphy for MvvmCross</title>
+    <authors>Sven-Michael Stübe</authors>
+    <owners>Sven-Michael Stübe</owners>
+    <licenseUrl>https://github.com/smstuebe/mvvmcross-calligraphy/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/smstuebe/mvvmcross-calligraphy</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a special Calligraphy binding for MvvmCross.</description>
+    <summary>Provides a special Calligraphy binding for MvvmCross.</summary>
+    <tags>xamarin mvvmcross monodroid Xamarin.Android android calligraphy</tags>
+    <iconUrl>https://raw.githubusercontent.com/smstuebe/mvvmcross-calligraphy/master/doc/icon.png</iconUrl>
+    <releaseNotes>
+      [1.0.0]
+      - initial version
+    </releaseNotes>
+    <dependencies>
+      <group targetFramework="MonoAndroid">
+        <dependency id="MvvmCross.Binding" version="4.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- Android -->
+    <file src="MvvmCross.Calligraphy.*" target="lib\MonoAndroid" />
+  </files>
+</package>

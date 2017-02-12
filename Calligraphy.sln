@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calligraphy.Droid", "Calligraphy.Droid\Calligraphy.Droid.csproj", "{E033292C-1101-44F4-867D-083EF8DB215F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calligraphy.Core", "Calligraphy.Core\Calligraphy.Core.csproj", "{2858A539-E736-4DF3-827F-8BDC969DA0E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{AE21CB22-8EFA-4987-942F-52CF10CD0DFC}"
+	ProjectSection(SolutionItems) = preProject
+		.build\build.bat = .build\build.bat
+		.build\build.fsx = .build\build.fsx
+		.build\MvvmCross.Calligraphy.nuspec = .build\MvvmCross.Calligraphy.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCross.Calligraphy", "MvvmCross.Calligraphy\MvvmCross.Calligraphy.csproj", "{F7EA24A8-C3C1-4594-A439-72A9F94D46B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E033292C-1101-44F4-867D-083EF8DB215F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E033292C-1101-44F4-867D-083EF8DB215F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E033292C-1101-44F4-867D-083EF8DB215F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E033292C-1101-44F4-867D-083EF8DB215F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E033292C-1101-44F4-867D-083EF8DB215F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E033292C-1101-44F4-867D-083EF8DB215F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2858A539-E736-4DF3-827F-8BDC969DA0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2858A539-E736-4DF3-827F-8BDC969DA0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2858A539-E736-4DF3-827F-8BDC969DA0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2858A539-E736-4DF3-827F-8BDC969DA0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EA24A8-C3C1-4594-A439-72A9F94D46B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EA24A8-C3C1-4594-A439-72A9F94D46B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EA24A8-C3C1-4594-A439-72A9F94D46B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EA24A8-C3C1-4594-A439-72A9F94D46B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

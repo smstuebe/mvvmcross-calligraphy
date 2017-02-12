@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    local:MvxBind="Text Hello"/>
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    local:MvxBind="Text Hello"
+    fontPath="fonts/gtw.ttf"/>
+  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_theme"/>
+
+  <TextView
+      fontPath="fonts/Roboto-Bold.ttf"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/defined_fontpath_view"/>
+
+  <TextView
+      fontPath="fonts/Roboto-None.ttf"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/defined_incorrect"/>
+
+  <TextView
+      style="@style/TextViewStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/defined_in_style"/>
+
+  <TextView
+      style="@style/TextViewAppearanceStyle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/defined_in_appears_style"/>
+</LinearLayout>
