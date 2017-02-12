@@ -301,3 +301,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# fake
+.fake/
+FAKE.**.**.**/
+
+# Build
+out/
+*.lock.json
